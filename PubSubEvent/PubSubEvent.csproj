@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Pub/Sub Event Manager</Title>
+    <Authors>David R Slocum</Authors>
+    <Description>A simple class library used for subscribing to and publishing to events. The events are managed by an Event Manager. Helps to eliminate hard dependencies between classes.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>event; event manager; publish; subscribe</PackageTags>
+    <PackageReleaseNotes>This is the initial release of this class library.</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
